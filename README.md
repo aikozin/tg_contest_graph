@@ -1,1 +1,1 @@
-# tg_contest_graph
+# Telegram Chart Contest - https://contest.com/chart-js
