@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.divcanvas {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.divTitle {
+    padding-top: 1rem;
+    text-align: left;
+}
+.title {
+    font-size: 1.3vw;
+    padding-left: 2rem;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.textSwitchMode {
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.text {
+	cursor: pointer;
+    font-size: 1.5vw;
+    color: rgb(16,139,227);
+    font-family: 'Arial', sans-serif;
+}
+
+
+/*Стили для форматирования на странице*/
+.container {
+    padding-top: 15%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.phone {
+    pointer-events: none;
+    width: 42%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.phone img {
+    width: 100%;
+}
+
+.programmer {
+    position: fixed;
+    font-size: 1vw;
+    font-family: 'Arial';
+    font-weight: bold;
+    right: 2%;
+    top: 2%;
+    color: rgb(16,139,227);
+}

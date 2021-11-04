@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta charset='utf-8'/>
+        <link rel="shortcut icon" href="/favicon.png" type="image/png">
+        
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/graph.js"></script>
+    </head>
+	<body>
+        <span class="programmer">by @aikozin</span>
+        <div class="phone" id="phone0"><img src="img/phone.png"></div>
+        <div class="container" id="container0">
+            <div class="divcanvas" id="0">
+                <div class="divTitle">
+                    <span id="title0" class="title">Graph</span>
+                </div>
+                <canvas id="canvas0"></canvas>
+                <script>drawGraph("0", "canvas0", 0);</script>
+
+                <div class="textSwitchMode">
+                    <span id="text0" class="text" onclick="switchMode('0')">Switch To Night Mode</span>
+                </div>
+            </div>
+        </div>
+        <div class="phone" id="phone1" style="margin-top: 10%"><img src="img/phone.png"></div>
+        <div class="container" id="container1" style="margin-top: 10%">
+            <div class="divcanvas" id="1">
+                <div class="divTitle">
+                    <span id="title1" class="title">Graph</span>
+                </div>
+                <canvas id="canvas1"></canvas>
+                <script>drawGraph("1", "canvas1", 1);</script>
+
+                <div class="textSwitchMode">
+                    <span id="text1" class="text" onclick="switchMode('1')">Switch To Night Mode</span>
+                </div>
+            </div>
+        </div>
+        <div class="phone" id="phone2" style="margin-top: 10%"><img src="img/phone.png"></div>
+        <div class="container" id="container2" style="margin-top: 10%">
+            <div class="divcanvas" id="2">
+                <div class="divTitle">
+                    <span id="title2" class="title">Graph</span>
+                </div>
+                <canvas id="canvas2"></canvas>
+                <script>drawGraph("2", "canvas2", 2);</script>
+
+                <div class="textSwitchMode">
+                    <span id="text2" class="text" onclick="switchMode('2')">Switch To Night Mode</span>
+                </div>
+            </div>
+        </div>
+        <div class="phone" id="phone3" style="margin-top: 10%"><img src="img/phone.png"></div>
+        <div class="container" id="container3" style="margin-top: 10%">
+            <div class="divcanvas" id="3">
+                <div class="divTitle">
+                    <span id="title3" class="title">Graph</span>
+                </div>
+                <canvas id="canvas3"></canvas>
+                <script>drawGraph("3", "canvas3", 3);</script>
+
+                <div class="textSwitchMode">
+                    <span id="text3" class="text" onclick="switchMode('3')">Switch To Night Mode</span>
+                </div>
+            </div>
+        </div>
+        <div class="phone" id="phone4" style="margin-top: 10%"><img src="img/phone.png"></div>
+        <div class="container" id="container4" style="margin-top: 10%">
+            <div class="divcanvas" id="4">
+                <div class="divTitle">
+                    <span id="title4" class="title">Graph</span>
+                </div>
+                <canvas id="canvas4"></canvas>
+                <script>drawGraph("4", "canvas4", 4);</script>
+
+                <div class="textSwitchMode">
+                    <span id="text4" class="text" onclick="switchMode('4')">Switch To Night Mode</span>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            document.getElementById("container0").style.height = document.getElementById("phone0").clientHeight * 0.7;
+            document.getElementById("container1").style.height = document.getElementById("phone1").clientHeight * 0.7; 
+            document.getElementById("container2").style.height = document.getElementById("phone2").clientHeight * 0.7; 
+            document.getElementById("container3").style.height = document.getElementById("phone3").clientHeight * 0.7;  
+            document.getElementById("container4").style.height = document.getElementById("phone4").clientHeight * 0.7;
+        </script>
+	</body>
+</html>
