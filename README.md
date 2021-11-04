@@ -1,3 +1,5 @@
-# Telegram Chart Contest - https://contest.com/chart-js
+# Telegram Chart Contest
+
+https://contest.com/chart-js
 
 Look at - https://aikozin.github.io/graph/
