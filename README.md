@@ -2,4 +2,4 @@
 
 https://contest.com/chart-js
 
-Look at - https://aikozin.github.io/graph/
+Look at - https://aikozin.github.io/web_TelegramGraph/
